@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple GPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="inner-container">
+            <p class="heading">GPA Calculator</p>
+            <div class="hreadings-content">
+                <p>Course</p>
+                <p>Credit</p>
+                <p>Grades</p>
+            </div>
+            <div class="input-fields">
+                <input type="text" name="" id="" placeholder="E.g Calculus">
+                <input type="text" name="" id="Credit0" placeholder="E.g 3">
+                <select id="Grades0">
+                    <option value="">select</option>
+                    <option value="A">A</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B">B</option>
+                    <option value="B-">B-</option>
+                    <option value="C+">C+</option>
+                    <option value="C">C</option>
+                    <option value="C-">C-</option>
+                    <option value="D+">D+</option>
+                    <option value="D">D</option>
+                    <option value="F">F</option>
+                </select>
+            </div>
+
+            <div class="input-fields">
+                <input type="text" name="" id="" placeholder="E.g Programming Fundemental">
+                <input type="text" name="" id="Credit1" placeholder="E.g 3">
+                <select id="Grades1">
+                    <option value="">select</option>
+                    <option value="A">A</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B">B</option>
+                    <option value="B-">B-</option>
+                    <option value="C+">C+</option>
+                    <option value="C">C</option>
+                    <option value="C-">C-</option>
+                    <option value="D+">D+</option>
+                    <option value="D">D</option>
+                    <option value="F">F</option>
+                </select>
+            </div>
+
+            <div class="input-fields">
+                <input type="text" name="" id="" placeholder="E.g Programming Fundemental">
+                <input type="text" name="" id="Credit2" placeholder="E.g 3">
+                <select id="Grades2">
+                    <option value="" >select</option>
+                    <option value="A">A</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B">B</option>
+                    <option value="B-">B-</option>
+                    <option value="C+">C+</option>
+                    <option value="C">C</option>
+                    <option value="C-">C-</option>
+                    <option value="D+">D+</option>
+                    <option value="D">D</option>
+                    <option value="F">F</option>
+                </select>
+            </div>
+
+            <div class="more-sub-heading">
+                <p onclick="addMoreSubject()">Add more Subject</p>
+            </div>
+
+            <div class="cal-btn">
+                <button onclick="calculateGpa()">Calculate</button>
+            </div>
+
+            <div>
+                <P id="show-result"></P>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

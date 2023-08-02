@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(172, 242, 219);
+    padding: 0;
+    margin: 0;
+    border-radius: border-box;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-container {
+    background-color: white;
+    width: 75%;
+    box-shadow: 0 0 10px rgb(188, 187, 187);
+    border-radius: 10px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: serif;
+}
+.hreadings-content{
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -20px;
+}
+.input-fields{
+    display: flex;
+    gap: 3%;
+    padding-left: 5%;
+    margin-bottom: 2%;
+}
+.input-fields > input{
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.input-fields>:nth-child(1){
+    width: 30%;
+    margin-left: 5%;
+}
+.input-fields>:nth-child(2){
+    width: 20%;
+}
+.input-fields>:nth-child(3){
+    margin-left: 9.5%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.more-sub-heading{
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    color: rgb(8, 184, 8);
+    cursor: pointer;
+}
+.more-sub-heading > p:hover{
+    color: darkgreen;
+}
+.cal-btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.cal-btn > button {
+    color: black;
+    font-weight: 700;
+    background-color: aquamarine;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 1%;
+    border-radius: 10px;
+}
+.cal-btn>button:hover{
+    background-color: rgb(81, 224, 176);
+}
+#show-result{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: serif;
+}
